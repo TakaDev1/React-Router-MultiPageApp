@@ -8,7 +8,7 @@ import Settings from "./pages/Settings";
 function App() {
   return (
     <>
-      <div>
+      <div className="min-h-screen flex flex-col bg-gray-800 justify-center">
         {" "}
         <BrowserRouter>
           <h1>React-Router-MultiPageApp</h1>
