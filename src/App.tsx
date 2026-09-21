@@ -8,14 +8,18 @@ import Settings from "./pages/Settings";
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <Navigation />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/profile" element={<Profile />} />
-          <Route path="/settings" element={<Settings />} />
-        </Routes>
-      </BrowserRouter>
+      <div>
+        {" "}
+        <BrowserRouter>
+          <h1>React-Router-MultiPageApp</h1>
+          <Navigation />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/profile" element={<Profile />} />
+            <Route path="/settings" element={<Settings />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
     </>
   );
 }
